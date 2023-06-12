@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+    background-color: #dcdce8;
+    margin: 0px;
+}
+.cont{
+    float:left;
+    height:370px;
+    /* border:2px solid black; */
+    box-sizing: border-box;
+    margin: 24px;
+}
+#logobar{    
+    width:450px;    
+    padding:34px 14px;        
+}
+#login{    
+    width:380px;    
+    padding:8px 4px;
+    background-color: #edeef7;
+    border-radius: 9px;
+}
+
+.container{
+    width:930px;
+    margin:110px auto;
+    /* border:2px solid red; */
+    overflow:auto;
+}
+.navbar{
+    background-color: black;
+    overflow:auto;
+    height:45px;
+    border-radius: 2px;
+    position:sticky;
+    top:0px;
+}
+.navbar li{
+    float:left;
+    margin:2px 20px;
+    padding:7px;
+    list-style: none;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+.navbar li a{
+    text-decoration: none;
+    color:white;
+}
+.navbar li a:hover{
+    color:yellow;
+}
+.navbar li:hover{
+    /* font-size: 17px; */
+    border: 2px solid white;
+    border-radius: 14px;
+}
+.navbar ul{
+    margin:0px;
+}
+#search{
+    float:right;
+    margin:7.5px 20px;
+    padding:7px;
+    width:230px;
+    border-radius: 30px;
+}
+
+#logo{
+    height:150px;
+    width:350px;
+    margin:0px;
+    border-radius: 20px;
+}
+#tagline{
+    margin:0px;
+    font-family:'Open Sans', sans-serif;
+    font-size: 25px;
+}
+.input{
+    font-size: 18px;;
+    width:330px;
+    height:36px;
+    margin:8px 5px;
+    padding:8px;
+    border-radius: 4px;
+    border:1px solid rgb(206, 199, 199);
+}
+.btn{
+    color:white;
+    font-size: 18px;
+    height:50px;
+    margin:5px;
+    padding:8px;
+    border-radius: 4px;
+    cursor:pointer;
+    border: none;
+}
+#existing{
+    width:350px;
+    background-color: #5252ff;
+}
+#existing:active{
+    /* color:black; */
+    background-color: #7d7dd4;
+}
+#create{
+    width:230px;
+    background-color: #25ca25;
+    margin:0px 70px;
+}
+#create:active{
+    /* color:black; */
+    background-color: #8cd08c;
+}
+#forgot{
+    font-weight: bold;
+    color:#5252ff;
+    margin:15px;
+    text-align: center;   
+}
+#forgot:visited{
+    color:#5252ff;
+}
+
+#top_logo{
+    float:left;
+    width:50px;
+    height:40px;
+    padding:2px;
+}
+.foot{
+    text-align: center;
+    /* padding-top:20px; */
+    margin:0px;
+}
